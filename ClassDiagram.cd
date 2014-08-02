@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AsanaGraphVisualizer.Project">
+    <Position X="7" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAmAIAAAAAAAAAAAAAAAAQIAAAAAAAAEAAIAAAAQAA=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Tasks" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AsanaGraphVisualizer.Team">
+    <Position X="3" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Team.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsanaGraphVisualizer.User">
+    <Position X="2.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsanaGraphVisualizer.Task">
+    <Position X="7" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAmAoAAAAAAAAIkAAAQAAQAIAAAAAAAACAAAAAEAAA=</HashCode>
+      <FileName>Task.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Assignee" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Followers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
